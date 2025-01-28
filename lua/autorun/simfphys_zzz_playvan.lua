@@ -107,7 +107,7 @@ local V = {
 		Gears = {-0.07,0,0.075,0.17,0.29}
 	}
 }
-list.Set( "simfphys_vehicles", "sim_fphys_zzz_playvan", V )
+list.Set( "simfphys_vehicles", "sim_fphys_zzz_playvan_ttt", V )
 
 local light_table = {
 	-- projected texture / lamp pos   - front
