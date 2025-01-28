@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+"$basetexture" "models/zzz/veh/playvan/body"	
+"$bumpmap" "models/zzz/veh/playvan/body_n"
+"$blendtintbybasealpha" 0
+"$colorfix" "{255 255 255}"
+"$nodecal" "1"
+"$colorfix" "[1 1 1]"
+        "Proxies"
+        {
+                "Equals"
+                {
+                        srcVar1 $colorfix
+                       resultVar    $color
+                }
+        }
+}

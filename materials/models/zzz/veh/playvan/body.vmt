@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+        "$basetexture" "models/zzz/veh/playvan/body"	
+       "$bumpmap" "models/zzz/veh/playvan/body_n"
+	"$phongexponenttexture" "models/eft/exp"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongalbedotint" "1"
+
+	"$phongboost" "1"
+	"$phongexponent" "25"
+	"$phongfresnelranges" "[1 5 22.5]" 
+	"$nocull" "1"
+        "$blendtintbybasealpha" 1
+
+}
