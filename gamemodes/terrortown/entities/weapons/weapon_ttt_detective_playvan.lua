@@ -50,7 +50,7 @@ function SWEP:Initialize()
 end
 
 -- Scaling damage of the car so its health can effectively be adjusted
-hook.Add("EntityTakeDamage", "TTTDetectivePlayvanDamageMult", function(target, dmg)
+hook.Add("EntityTakeDamage", "TTTDetectiveToyCarDamageMult", function(target, dmg)
     if target.IsDetectiveToyCar and target.DamageMult then
         dmg:ScaleDamage(target.DamageMult)
         local driver = target:GetDriver()
