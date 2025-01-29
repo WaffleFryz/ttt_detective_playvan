@@ -96,7 +96,7 @@ function SWEP:PrimaryAttack()
     endPos.z = endPos.z + self.PlaceOffset
     local pitch, yaw, roll = owner:EyeAngles():Unpack()
     pitch = 0
-    local car = simfphys.SpawnVehicleSimple("sim_fphys_zzz_playvan", endPos, Angle(pitch, yaw, roll))
+    local car = simfphys.SpawnVehicleSimple("sim_fphys_zzz_playvan_ttt", endPos, Angle(pitch, yaw, roll))
     -- Set some properties for later to detect this is a toy car entity
     car.IsDetectiveToyCar = true
     car.DamageMult = self.DamageMult
